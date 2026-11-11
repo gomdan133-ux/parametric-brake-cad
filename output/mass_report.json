@@ -1,0 +1,81 @@
+{
+  "rotor": {
+    "spec": {
+      "outer_d": 300.0,
+      "friction_inner_d": 180.0,
+      "plate_t": 9.0,
+      "vane_gap": 10.0,
+      "vane_count": 36,
+      "vane_t": 4.0,
+      "hat_d": 165.0,
+      "hat_height": 45.0,
+      "hat_wall": 6.0,
+      "hub_face_t": 8.0,
+      "center_bore_d": 64.1,
+      "lug_count": 5,
+      "lug_pcd": 114.3,
+      "lug_hole_d": 14.0
+    },
+    "volume_mm3": 1214232.1710457832,
+    "mass_kg": 8.74247163152964,
+    "center_of_mass_mm": [
+      -3.99322161750647e-13,
+      -1.2831084201145023e-14,
+      23.76540226900345
+    ],
+    "bounding_box_mm": [
+      300.2540394205721,
+      300.2540394205721,
+      73.22957380972497
+    ],
+    "material": "gray_cast_iron"
+  },
+  "bracket": {
+    "spec": {
+      "length": 190.0,
+      "width": 45.0,
+      "thickness": 16.0,
+      "knuckle_hole_spacing": 100.0,
+      "knuckle_hole_d": 12.5,
+      "caliper_hole_spacing": 150.0,
+      "caliper_hole_d": 8.5,
+      "corner_r": 10.0,
+      "edge_fillet": 1.5
+    },
+    "volume_mm3": 116869.61423901768,
+    "mass_kg": 0.9232699524882397,
+    "center_of_mass_mm": [
+      -4.166553184075254e-13,
+      4.955940984542724e-16,
+      7.5780327433864665
+    ],
+    "bounding_box_mm": [
+      190.02769448970824,
+      45.027694489708246,
+      16.027694489708242
+    ],
+    "material": "steel_1020"
+  },
+  "rotor_plate_thickness_study": [
+    {
+      "plate_t_mm": 7.0,
+      "mass_kg": 7.34
+    },
+    {
+      "plate_t_mm": 8.0,
+      "mass_kg": 8.04
+    },
+    {
+      "plate_t_mm": 9.0,
+      "mass_kg": 8.74
+    },
+    {
+      "plate_t_mm": 10.0,
+      "mass_kg": 9.44
+    },
+    {
+      "plate_t_mm": 11.0,
+      "mass_kg": 10.15
+    }
+  ]
+}
